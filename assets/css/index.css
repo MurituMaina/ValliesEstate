@@ -1,16 +1,17 @@
 body {
     margin: 0px;
+    overflow-x: hidden;
     background-color: whitesmoke;
-    width: 1260px;
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 
 /* */
+
 .home_o {
     display: inline-block;
     padding: .10px;
-
-
 }
 
 .home {
@@ -20,16 +21,14 @@ body {
     font-size: 20px;
     padding: 30px;
     float: right;
-
 }
 
 .hm_v {
     float: left;
-    font-family: 'Ribbon 131 Bd BJ';
+    font-family: 'Oleo Script', sans-serif;
     font-size: 40px;
     font-style: italic bold;
     padding-right: 30px;
-
 }
 
 .home a {
@@ -37,11 +36,10 @@ body {
     text-decoration: none;
     font-size: 20px;
     float: right;
-
+    /* font-weight: bold; */
 }
 
 .home a:active {
-
     color: blue;
 }
 
@@ -59,7 +57,6 @@ body {
     min-width: 100px;
     margin: 10px;
     float: left;
-
 }
 
 .hm_l {
@@ -67,7 +64,6 @@ body {
     padding: 10px;
     margin: 10px;
     float: left;
-
 }
 
 .hm_a {
@@ -92,8 +88,7 @@ body {
     height: 40px;
     background-color: blue;
     border-radius: 20px;
-
-
+    border: none;
 }
 
 .but_1 a {
@@ -102,8 +97,8 @@ body {
 }
 
 
-
 /* Helping*/
+
 .Help_al {
     display: inline-block;
     max-width: 1200px;
@@ -118,7 +113,6 @@ body {
     text-align: left;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .helping_1 h1 {
@@ -132,6 +126,7 @@ body {
     width: 450px;
 }
 
+
 /*
 .crt_p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -143,7 +138,6 @@ body {
 .House_Img {
     float: right;
     max-width: 700px;
-
 }
 
 .House_Img img {
@@ -162,16 +156,13 @@ body {
     font-size: 20px;
 }
 
-
 .video {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     color: white;
     background-color: #2549d3;
-    float:left;
-
-    
+    float: left;
 }
 
 .video_ico {
@@ -184,7 +175,9 @@ body {
     color: white;
 }
 
+
 /**/
+
 .search {
     height: 100px;
     max-width: 900px;
@@ -212,7 +205,6 @@ body {
     min-width: 100px;
     font-size: 30px;
     margin: 0px;
-
 }
 
 .loc img {
@@ -253,7 +245,6 @@ body {
     margin-right: 20px;
     border-radius: 20px;
     float: right;
-
 }
 
 .search .but_3 img {
@@ -264,14 +255,11 @@ body {
     ;
 }
 
+
 /* */
 
 
-
-
-
 /* footer*/
-
 
 a {
     color: white;
@@ -283,16 +271,10 @@ a {
     width: 350px;
 }
 
-
-
-
-
 h1,
 h2 {
     color: blue;
 }
-
-
 
 .products {
     min-width: 100px;
@@ -310,7 +292,6 @@ h2 {
 
 .products .prd_in {
     font-size: 2em;
-
 }
 
 .prd_in h1 {
@@ -324,7 +305,6 @@ h2 {
     height: 300px;
     display: inline-block;
     color: darkslateblue;
-
 }
 
 .items h2 {
@@ -340,7 +320,6 @@ h2 {
     height: 300px;
     width: 200px;
     margin: 40px;
-
 }
 
 .loc_pin {
@@ -361,7 +340,6 @@ h2 {
 }
 
 #smart {
-
     height: 120px;
     width: 100px;
     margin-top: 40px;
@@ -377,7 +355,6 @@ h2 {
     border-radius: 10px;
     margin-top: 40px;
     margin-right: 40px;
-
 }
 
 .secure {
@@ -385,11 +362,11 @@ h2 {
     width: 100px;
 }
 
+
 /* Choose*/
 
 .choose {
     height: 600px;
-
 }
 
 .choose_1 {
@@ -399,7 +376,6 @@ h2 {
     padding: 5px;
     margin-left: 15px;
     padding: 50px;
-
 }
 
 .choose_1 img {
@@ -410,7 +386,6 @@ h2 {
 .choose_2 {
     float: right;
     text-align: center;
-
     margin-right: 5px;
     font-size: 20px;
     width: 500px;
@@ -426,29 +401,24 @@ h2 {
     text-align: left;
     float: left;
     width: 200px;
-
 }
 
 .sider {
-
     text-align: left;
     float: right;
-
 }
 
 
-
 /*properties*/
+
 .properties {
     height: 600px;
     width: 1200px;
     padding: 20px;
     margin: 20px;
-
 }
 
 figcaption {
-
     font-size: 2em;
 }
 
@@ -469,20 +439,17 @@ figcaption p {
     text-align: center;
     width: 760px;
     padding: 20px;
-
 }
 
 .Images {
     display: inline-block;
     width: 1100px;
     height: 300px;
-
 }
 
 .Images img {
     height: 200px;
     width: 350px;
-
 }
 
 .prts {
@@ -494,7 +461,6 @@ figcaption p {
     height: 600px;
     width: 300px;
     padding: 10px;
-
 }
 
 .prts_pal1 img {
@@ -502,12 +468,10 @@ figcaption p {
     width: 300px;
 }
 
-
 .ptrs_ror2 {
     margin: auto;
     height: 400px;
     width: 300px;
-
 }
 
 .prts_rex3 {
@@ -515,8 +479,6 @@ figcaption p {
     height: 400px;
     width: 300px;
     margin-left: 30px;
-
-
 }
 
 .but_4 {
@@ -527,20 +489,19 @@ figcaption p {
     border-radius: 10px;
 }
 
-/* Customers*/
-.customers {
 
+/* Customers*/
+
+.customers {
     margin: 10px;
     height: 500px;
     width: 1000px;
 }
 
 .customers_main {
-
     height: 500px;
     width: 1000px;
     padding: 20px;
-
 }
 
 .custo_in {
@@ -548,31 +509,22 @@ figcaption p {
     text-align: center;
 }
 
-
-
 .cust_1 {
     height: 300px;
     width: 250px;
     text-align: left;
     padding: 20px;
-    
     float: right;
     background-color: white;
-
-
-
 }
 
 .cust_2 {
-
     height: 300px;
     width: 250px;
     text-align: left;
     margin: auto;
     padding: 20px;
     background-color: white;
-
-
 }
 
 .cust_3 {
@@ -583,17 +535,18 @@ figcaption p {
     padding: 20px;
     text-align: left;
     background-color: white;
-
 }
 
 .but_5 {
     color: white;
     font-size: 30px;
-    background-color: blue;
+    background-color: red;
     border-radius: 10px;
+    border: none;
     float: right;
     margin-bottom: 30px;
 }
+
 
 /*Footer*/
 
@@ -603,8 +556,8 @@ footer {
 }
 
 .footer {
-    background-color: #2549d3;   
-    position: absolute; 
+    background-color: #2549d3;
+    position: absolute;
     display: flex;
     padding-right: 100px;
     color: white;
@@ -612,10 +565,9 @@ footer {
     font-family: Arial Verdana;
     width: 100%;
     height: 700px;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
 }
-
 
 .ft_val_1 {
     padding: 10px;
@@ -623,25 +575,21 @@ footer {
     height: 400px;
 }
 
-
 .vallie {
-
-    width: 25%;
+    width: 40%;
     height: 200px;
-    font-size: 30px;
+    font-size: 2rem;
     padding: 20px;
     margin: 10px;
     text-align: left;
-    font-family:'Courier';
+    font-family: 'Courier';
     float: left;
-
 }
 
 .vallie h3 {
     font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Oleo Script', 'san-Serif';
 }
-
 
 .ft_prt_2 {
     padding: 30px;
@@ -649,8 +597,6 @@ footer {
     margin: 10px;
     width: 25%;
     font-size: 30px;
-
-
 }
 
 .ft_prt_2 h4 {
@@ -658,21 +604,18 @@ footer {
     font-style: bold;
 }
 
-
 .ft_abt_3 {
     float: left;
     margin: 10px;
     width: 25%;
     padding: 30px;
     font-size: 30px;
-
 }
 
 .ft_abt_3 h4 {
     font-size: 50px;
     font-style: bold;
 }
-
 
 .ft_res_4 {
     float: right;
