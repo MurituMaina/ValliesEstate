@@ -540,7 +540,7 @@ figcaption p {
 .but_5 {
     color: white;
     font-size: 30px;
-    background-color: red;
+    background-color: blue;
     border-radius: 10px;
     border: none;
     float: right;
@@ -595,8 +595,8 @@ footer {
     padding: 30px;
     float: left;
     margin: 10px;
-    width: 25%;
-    font-size: 30px;
+    width: 50%;
+    font-size: 1.2em;
 }
 
 .ft_prt_2 h4 {
@@ -609,7 +609,7 @@ footer {
     margin: 10px;
     width: 25%;
     padding: 30px;
-    font-size: 30px;
+    font-size: 1.2em;
 }
 
 .ft_abt_3 h4 {
@@ -621,7 +621,7 @@ footer {
     float: right;
     padding: 30px;
     margin: 10px;
-    font-size: 30px;
+    font-size: 1.2em;
     width: 25%;
 }
 
